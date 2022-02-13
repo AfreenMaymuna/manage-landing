@@ -17,8 +17,9 @@
 body{
     font-size: 16px;
     font-family: 'Be Vietnam Pro', sans-serif;
-    background-color: rgb(250, 251, 252);
+    background-color: rgb(195, 211, 219);
     color: var( --dark-grayish-blue);
+    overflow-x: hidden;
 }
  
 ul, ol {
@@ -26,6 +27,9 @@ ul, ol {
 }
 h1,h2,h3,h4,h5,h6 {
     color: var(--very-dark-blue);
+}
+h2{
+    font-size: 40px;
 }
 a{
     text-decoration: none;
@@ -66,11 +70,16 @@ button, a {
 .items-center {
     align-items: center;
 }
+ali
 
 .container{
     width: 1170px;
     margin: 0 auto;
 
+}
+.section-heading{
+   text-align: center;
+   margin-bottom: 150px; 
 }
 /* Header */
 header{
@@ -133,7 +142,6 @@ header{
 }
 
 .about h2{
-    font-size: 40px;
     line-height: 1.2;
     margin-bottom: 25px;
     z-index: 2;
@@ -166,5 +174,39 @@ header{
     left: -450px;
     z-index: 0;
     position: absolute;
+    
+}
+/* Testimonial */
+.testimonials{
+ gap: 20px;
+}
+.testimonial{
+    background-color: var(--vary-ligh-gray);
+    /* background-color: rgb(238, 148, 148); */
+    padding: 25px;
+    /* margin-right: 12px;
+    margin-left: 12px; */
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+/* .testimonial:first-child{
+    margin-left: 0;
+}
+.testimonial:last-child{
+    margin-right: 0;
+} */
+.testimonial img{
+    width: 80px;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.testimonial h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.testimonial p{
     
 }
