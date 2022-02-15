@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 :root{
- --bright-red: hsl(12, 88%, 59%);
+ --bright-red: hsl(12, 67%, 43%);
  --dark-blue: hsl(228, 39%, 23%);
  --dark-grayish-blue: hsl(227, 12%, 61%);
  --very-dark-blue: hsl(233, 12%, 13%);
@@ -48,7 +48,7 @@ button, a {
     background-color: var(--vary-ligh-gray);
     padding: 12px 30px;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 35px;
     z-index: 1;
 }
 .btn-primary{
@@ -67,15 +67,28 @@ button, a {
 .d-flex{
     display: flex;
 }
+.content-center{
+    justify-content: center;
+}
+.content-between{
+    justify-content: space-between;
+}
 .items-center {
     align-items: center;
 }
-ali
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color: var(--vary-ligh-gray);
+}
 
 .container{
     width: 1170px;
     margin: 0 auto;
-
 }
 .section-heading{
    text-align: center;
@@ -124,7 +137,7 @@ header{
 .hero-heading{
     font-size: 52px;
     margin-bottom: 30px;
-    line-height: 1,2;
+    line-height: 1.2;
 }
 .hero-text{
     
@@ -204,9 +217,51 @@ header{
     transform: translateX(-50%);
 }
 .testimonial h4{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .testimonial p{
     
+}
+.testimonial-btn{
+    align-items: center;
+    display: block;
+    margin: 40px auto 0;
+}
+/* call-to-action */
+
+.call-to-action{
+    background-color: var(--bright-red);
+    background-image: url(/asset/images/bg-simplify-section-desktop.svg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* footer style */
+.footer-wrapper{
+    background-color: var(--very-dark-blue);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-raw{
+
+}
+.footer-logo{
+ margin-bottom: 60px;
+}
+.footer-menu li a{
+    color: white;
+    padding: 15px;
+    display: block;
+}
+.subscription{
+    padding: 12px;
+    border: 0;
+    border-radius: 30px;
+    margin:0 8px 60px 0;
+    
+}
+.subscription:focus{
+    outline: none;
 }
