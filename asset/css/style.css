@@ -13,13 +13,17 @@
  --vary-ligh-gray: hsl(0, 0%, 98%);
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 
 body{
     font-size: 16px;
     font-family: 'Be Vietnam Pro', sans-serif;
     background-color: rgb(195, 211, 219);
     color: var( --dark-grayish-blue);
-    overflow-x: hidden;
+    position: relative;
 }
  
 ul, ol {
@@ -42,6 +46,9 @@ a:hover{
 
 button, a {
     transition: all 0.3ms ease-in-out;
+}
+img{
+    width: 100%;
 }
 .btn{
     border: 0;
@@ -255,6 +262,8 @@ header{
     padding: 15px;
     display: block;
 }
+
+
 .subscription{
     padding: 12px;
     border: 0;
@@ -265,3 +274,20 @@ header{
 .subscription:focus{
     outline: none;
 }
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
